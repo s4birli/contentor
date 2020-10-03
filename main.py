@@ -1,9 +1,7 @@
-from bson import ObjectId
+
 from constractor import *
 import test
 import remover
-
-
 def main():
     try:
         remover.remove_images()
